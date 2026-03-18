@@ -26,10 +26,7 @@ red= 0x100000
 green=0x00FF00
 orange=0xff5b00
 
-pixels = neopixel.NeoPixel_SPI(spi,
-                               NUM_PIXELS,
-                               pixel_order=PIXEL_ORDER,
-                               auto_write=True)
+pixels = neopixel.NeoPixel_SPI(spi,NUM_PIXELS,pixel_order=PIXEL_ORDER,auto_write=True)
 #start with all red                                                         
 led1.color=(1,0,0)
 led2.color=(1,0,0)
